@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.searchbox {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+}
+.searchbox button {
+  margin-left: 3rem;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+}
+img:hover {
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.movies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.movie {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem;
+  flex-direction: column;
+}
+
+.movieinfo {
+  width: 100%;
+  padding-left: 1rem;
+}
+.vote {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  position: relative;
+  top: -40px;
+  left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
